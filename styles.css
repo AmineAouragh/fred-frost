@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#topnav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #042940;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: 82px;
+}
+
+#topnav #navlist {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#fredtrading-logo {
+    margin-right: 45px;
+}
+
+#navlist a {
+    color: white;
+    margin-right: 30px;
+    font-family: "Red Hat Display", sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#join-group-btn {
+    background-color: #00b67a;
+    padding: 5px 24px 5px 24px;
+    border-radius: 30px;
+}
+
+#horizontal-reviews {
+    height: 48px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #f3f3f5;
+}
+
+.trustpilot-link {
+    color: black;
+    text-decoration: none;
+}
+
+.trustpilot-link:active {
+    color: black;
+    text-decoration: none;
+}
+
+.tp-star__canvas, .tp-star__canvas--half {
+    fill: #00b67a;
+}
+
+.last .tp-star__canvas {
+    fill: #dcdce6;
+}
+
+#hero {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #333333;
+    text-align: center;
+    width: 1280px;
+    margin-bottom:30px;
+}
+
+#hero-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-testimonials p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 14px;
+    color: #535453;
+    width: 97px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.right-testimonials p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 14px;
+    color: #535453;
+    width: 97px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#numbers-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 25px;
+    margin:auto;
+}
+
+#numbers-container div {
+    margin: auto;
+}
+
+#numbers-container p {
+    margin-bottom: 0px;
+    margin-top:0px;
+}
+
+#numbers-container p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
